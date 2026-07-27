@@ -21,10 +21,12 @@ export default function About() {
               with <span className="text-gradient">business goals</span>
             </h2>
             <p className="about__para text-muted">
-              I'm Talha Khan, an aspiring Product Manager passionate about building
-              products that create real impact. I believe great products are born at
-              the intersection of deep user empathy, sharp business intuition, and
-              collaborative execution.
+              Business Analyst with 3 years of experience delivering SaaS products
+              across web and mobile platforms, with hands-on involvement in product
+              management. Skilled in product discovery, requirement gathering,
+              stakeholder management, and Agile delivery — working closely with
+              engineering, design, and business teams to turn complex needs into
+              clear, actionable solutions.
             </p>
             <p className="about__para text-muted">
               My journey into product management has been driven by a relentless

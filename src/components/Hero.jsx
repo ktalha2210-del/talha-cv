@@ -31,7 +31,7 @@ export default function Hero() {
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
               </svg>
-              Aspiring Product Manager
+              Product Manager
             </span>
           </p>
 
@@ -54,7 +54,7 @@ export default function Hero() {
               View My Work
             </a>
             <a
-              href="https://drive.google.com/file/d/1s9xwJv_WSj4WD-OxTHkU9ERTShLtjLKg/view?usp=sharing"
+              href="https://drive.google.com/file/d/1p-9ibYFO8jCmdsMKbepmoPL_oW7a1vpc/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               id="hero-cv-btn"
@@ -76,8 +76,8 @@ export default function Hero() {
             </div>
             <div className="hero__stat-divider" />
             <div className="hero__stat">
-              <span className="hero__stat-number">2+</span>
-              <span className="hero__stat-label">Years Learning</span>
+              <span className="hero__stat-number">3</span>
+              <span className="hero__stat-label">Years Experience</span>
             </div>
             <div className="hero__stat-divider" />
             <div className="hero__stat">
@@ -94,7 +94,7 @@ export default function Hero() {
           <div className="hero__photo-container">
             <img
               src="/images/talha.jpeg"
-              alt="Talha Khan – Aspiring Product Manager"
+              alt="Talha Khan – Product Manager"
               className="hero__photo"
               id="hero-profile-photo"
               onError={(e) => {
@@ -114,6 +114,15 @@ export default function Hero() {
           </div>
           <div className="hero__chip hero__chip--3">
             <span>💡</span> User Empathy
+          </div>
+          <div className="hero__chip hero__chip--4">
+            <span>🗺️</span> Roadmapping
+          </div>
+          <div className="hero__chip hero__chip--5">
+            <span>🏃</span> Agile Delivery
+          </div>
+          <div className="hero__chip hero__chip--6">
+            <span>🤝</span> Stakeholder Mgmt
           </div>
         </div>
       </div>

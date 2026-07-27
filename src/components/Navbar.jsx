@@ -60,7 +60,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://drive.google.com/file/d/1s9xwJv_WSj4WD-OxTHkU9ERTShLtjLKg/view?usp=sharing"
+            href="https://drive.google.com/file/d/1p-9ibYFO8jCmdsMKbepmoPL_oW7a1vpc/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary navbar__cta"
