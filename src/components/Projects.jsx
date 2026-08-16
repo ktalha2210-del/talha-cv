@@ -3,6 +3,25 @@ import './Projects.css';
 
 const PROJECTS = [
   {
+    id: 'district',
+    title: 'District',
+    subtitle: 'Product Case Study',
+    description:
+      'How I Solved App-Bouncing & Crowd Uncertainty on the District App. A product case study exploring how user research, journey mapping, and product thinking helped identify friction in restaurant discovery and improve decision confidence.',
+    tags: ['UX Research', 'Journey Mapping', 'Restaurant Discovery', 'Product Thinking'],
+    color: '#FF6B35',
+    imgSrc: '/images/district.jpeg',
+    metrics: [
+      { label: 'Focus Area', value: 'Discovery UX' },
+      { label: 'Method', value: 'Journey Mapping' },
+      { label: 'Type', value: 'Case Study' },
+    ],
+    link: 'https://d-casestudy.vercel.app/',
+    linkId: 'district-casestudy-btn',
+    ctaLabel: 'Visit Webpage',
+    ctaIcon: 'external',
+  },
+  {
     id: 'zepto',
     title: 'Zepto',
     subtitle: 'Quick Commerce PRD',
@@ -37,23 +56,6 @@ const PROJECTS = [
     linkId: 'zomato-prd-btn',
   },
   {
-    id: 'everything-pets',
-    title: 'Everything Pets',
-    subtitle: 'Consumer App Project',
-    description:
-      'A deep-dive product project for a pet care and services marketplace. Includes competitor analysis, persona development, MVP feature scoping, and a roadmap aligned with business objectives.',
-    tags: ['Marketplace', 'Pet Tech', 'MVP Scoping', 'Persona Research'],
-    color: '#2dd4bf',
-    imgSrc: '/images/pets.png',
-    metrics: [
-      { label: 'Focus Area', value: 'MVP Definition' },
-      { label: 'Method', value: 'Persona Research' },
-      { label: 'Type', value: 'Case Study' },
-    ],
-    link: 'https://drive.google.com/file/d/1ut5dJUlFv9ilG-wIFUWaoyPCsd9ANNLL/view?usp=sharing',
-    linkId: 'pets-project-btn',
-  },
-  {
     id: 'pharmeasy',
     title: 'PharmEasy',
     subtitle: 'Product Teardown',
@@ -67,7 +69,7 @@ const PROJECTS = [
       { label: 'Method', value: 'Teardown' },
       { label: 'Type', value: 'Analysis' },
     ],
-    link: 'https://drive.google.com/file/d/1jlA1I3DGoalzTLr5OCrYWptxqhq8l3_R/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/1RoGQOei7lOJNQnWGEnjcaWU6DPuX6EVf/view?usp=sharing',
     linkId: 'pharmeasy-teardown-btn',
   },
   {
@@ -84,7 +86,7 @@ const PROJECTS = [
       { label: 'Method', value: 'Teardown' },
       { label: 'Type', value: 'Analysis' },
     ],
-    link: 'https://drive.google.com/file/d/1RoGQOei7lOJNQnWGEnjcaWU6DPuX6EVf/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/1jlA1I3DGoalzTLr5OCrYWptxqhq8l3_R/view?usp=sharing',
     linkId: 'netflix-teardown-btn',
   },
 ];
@@ -159,14 +161,22 @@ export default function Projects() {
                 id={p.linkId}
                 style={{ '--btn-color': p.color }}
               >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                  <polyline points="14 2 14 8 20 8"/>
-                  <line x1="16" y1="13" x2="8" y2="13"/>
-                  <line x1="16" y1="17" x2="8" y2="17"/>
-                  <polyline points="10 9 9 9 8 9"/>
-                </svg>
-                View Document
+                {p.ctaIcon === 'external' ? (
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                    <polyline points="15 3 21 3 21 9"/>
+                    <line x1="10" y1="14" x2="21" y2="3"/>
+                  </svg>
+                ) : (
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                    <polyline points="14 2 14 8 20 8"/>
+                    <line x1="16" y1="13" x2="8" y2="13"/>
+                    <line x1="16" y1="17" x2="8" y2="17"/>
+                    <polyline points="10 9 9 9 8 9"/>
+                  </svg>
+                )}
+                {p.ctaLabel || 'View Document'}
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/>
                 </svg>
