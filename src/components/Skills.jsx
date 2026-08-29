@@ -27,15 +27,15 @@ const SKILL_GROUPS = [
 ];
 
 const MY_TOOLS = [
-  { name: 'Cursor',      color: '#888888', icon: '/images/cursor.png' },
-  { name: 'Framer',      color: '#0055FF', icon: '/images/framer.jpg' },
-  { name: 'Figma',       color: '#F24E1E', icon: '/images/figma.png' },
-  { name: 'Lovable',     color: '#FF5C35', icon: '/images/lovable.png' },
-  { name: 'Whimsical',   color: '#8844FF', icon: '/images/whimsical.png' },
+  { name: 'Cursor', color: '#888888', icon: '/images/cursor.png' },
+  { name: 'Framer', color: '#0055FF', icon: '/images/framer.jpg' },
+  { name: 'Figma', color: '#F24E1E', icon: '/images/figma.png' },
+  { name: 'Lovable', color: '#FF5C35', icon: '/images/lovable.png' },
+  { name: 'Whimsical', color: '#8844FF', icon: '/images/whimsical.png' },
   { name: 'Claude Code', color: '#E4A982', icon: '/images/claude_code.png' },
   { name: 'Jira / Conf.', color: '#0052CC', icon: 'https://cdn.simpleicons.org/jira/0052CC' },
-  { name: 'Mixpanel',    color: '#7856FF', icon: 'https://cdn.simpleicons.org/mixpanel/7856FF' },
-  { name: 'MS Clarity',  color: '#00A4EF', icon: '/images/clarity.png' },
+  { name: 'Mixpanel', color: '#7856FF', icon: 'https://cdn.simpleicons.org/mixpanel/7856FF' },
+  { name: 'MS Clarity', color: '#00A4EF', icon: '/images/clarity.png' },
 ];
 
 export default function Skills() {

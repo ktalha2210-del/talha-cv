@@ -3,7 +3,8 @@ import './Navbar.css';
 
 const NAV_LINKS = [
   { label: 'About', href: '#about' },
-  { label: 'Projects', href: '#projects' },
+  { label: 'Case Studies', href: '#projects' },
+  { label: 'My LinkedIn posts', href: '#linkedin-posts' },
   { label: 'Skills', href: '#skills' },
   { label: 'Contact', href: '#contact' },
 ];
@@ -17,7 +18,7 @@ export default function Navbar() {
     const handleScroll = () => {
       setScrolled(window.scrollY > 40);
 
-      const sections = ['about', 'projects', 'skills', 'contact'];
+      const sections = ['about', 'projects', 'linkedin-posts', 'skills', 'contact'];
       for (const id of sections) {
         const el = document.getElementById(id);
         if (el) {
