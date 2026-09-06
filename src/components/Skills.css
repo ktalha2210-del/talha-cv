@@ -191,7 +191,7 @@
   font-weight: 400;
 }
 
-/* 3-column grid — 9 items = 3×3, perfect */
+/* 3-column grid - 9 items = 3x3, perfect */
 .skills__tools-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

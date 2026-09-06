@@ -82,7 +82,7 @@ export default function Contact() {
                 Say Hello 👋
               </a>
               <a
-                href="https://drive.google.com/file/d/1s9xwJv_WSj4WD-OxTHkU9ERTShLtjLKg/view?usp=sharing"
+                href="https://drive.google.com/file/d/1p-9ibYFO8jCmdsMKbepmoPL_oW7a1vpc/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 id="contact-cv-btn"

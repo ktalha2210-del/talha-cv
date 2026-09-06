@@ -15,7 +15,7 @@
 }
 
 .container--linkedin {
-  max-width: 980px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -69,10 +69,10 @@
   max-width: 580px;
 }
 
-/* 2-Column Grid */
+/* 3-Column Grid */
 .linkedin-posts__grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 

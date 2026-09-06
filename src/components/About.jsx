@@ -1,12 +1,7 @@
 import React from 'react';
 import './About.css';
 
-const TRAITS = [
-  { icon: '🎯', title: 'Problem-First Mindset', desc: 'I start with user pain points and work backwards to craft products that truly matter.' },
-  { icon: '📐', title: 'Structured Thinking', desc: 'Every decision is backed by frameworks — from RICE scoring to Jobs-to-be-Done.' },
-  { icon: '🔭', title: 'Systems Thinker', desc: 'I look at the full picture — business impact, tech constraints, and user delight.' },
-  { icon: '📣', title: 'Clear Communicator', desc: 'PRDs, roadmaps, and decks that stakeholders actually read and understand.' },
-];
+
 
 export default function About() {
   return (
@@ -24,7 +19,7 @@ export default function About() {
               Business Analyst with 3 years of experience delivering SaaS products
               across web and mobile platforms, with hands-on involvement in product
               management. Skilled in product discovery, requirement gathering,
-              stakeholder management, and Agile delivery — working closely with
+              stakeholder management, and Agile delivery - working closely with
               engineering, design, and business teams to turn complex needs into
               clear, actionable solutions.
             </p>
@@ -32,8 +27,7 @@ export default function About() {
               My journey into product management has been driven by a relentless
               curiosity about <em>why</em> people use products, and <em>how</em> we can
               make those experiences better. I've worked on case studies across
-              quick commerce (Zepto), food delivery (Zomato), and consumer apps
-              (Everything Pets) — each sharpening my product instincts.
+              District, Cricbuzz and Fitpass - each sharpening my product instincts.
             </p>
 
             <div className="about__links">
@@ -64,16 +58,6 @@ export default function About() {
             </div>
           </div>
 
-          {/* Right: Trait cards */}
-          <div className="about__traits">
-            {TRAITS.map((t, i) => (
-              <div className="about__trait-card card" key={t.title} style={{ animationDelay: `${i * 0.1}s` }}>
-                <div className="about__trait-icon">{t.icon}</div>
-                <h3 className="heading-md about__trait-title">{t.title}</h3>
-                <p className="about__trait-desc text-muted">{t.desc}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </section>

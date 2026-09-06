@@ -19,11 +19,23 @@ Then you hit next. And you write. No discount. No "please don't go" popup. Just 
     url: 'https://www.linkedin.com/feed/update/urn:li:ugcPost:7497675322784665601',
     postImage: 'https://media.licdn.com/dms/image/v2/D4D22AQEJIoghN1Adlg/feedshare-shrink_800/B4DaA0X.HSHoAc-/0/1787585094352?e=2147483647&v=beta&t=03dXOcpVXHwTCZlDQQsq4qS4uCuOzhH7on-7HrerrYk',
     title: 'District’s Micro-Friction Fix for Group Booking',
-    content: `We've all been there. A group movie plan, and then booking seats turns into its own mini negotiation. Someone screenshots the seat map, circles two seats, sends it on WhatsApp — and five replies later, you're still stuck in decision paralysis.
+    content: `We've all been there. A group movie plan, and then booking seats turns into its own mini negotiation. Someone screenshots the seat map, circles two seats, sends it on WhatsApp - and five replies later, you're still stuck in decision paralysis.
 
-District just fixed this friction point. They shipped a Share Seat Map feature — instead of screenshotting and guessing, you send the live seat map to your group.`,
+District just fixed this friction point. They shipped a Share Seat Map feature - instead of screenshotting and guessing, you send the live seat map to your group.`,
     tags: ['#ProductManagement', '#ProductThinking', '#UXDesign', '#CustomerEmpathy'],
   },
+  {
+    id: 'post-new-rapido',
+    url: 'https://www.linkedin.com/feed/update/urn:li:ugcPost:7501590011209875456',
+    postImage: 'https://media.licdn.com/dms/image/v2/D4D22AQFv6DRgMbDoog/feedshare-image-high-res/B4DaBsAXKDKkAU-/0/1788518429564?e=2147483647&v=beta&t=uz1AMp1XmtQlbgfaHWwUQJ1LQbVn1tqK3ruIY00n5zM',
+    title: 'Rapido Priority Match',
+    content: `Rapido just killed one of the most annoying trade-offs in ride-hailing.
+
+You book a ride. Captain is 10 minutes away. You want a faster one, but cancelling means losing your confirmed booking with zero guarantee of finding better. So most users just wait, and quietly get frustrated.
+
+Rapido's new "Priority Match" fixes this with one button: "Keep checking for a better captain nearby?" Your current ride stays locked in as a fallback while the app searches for a closer match in the background. If it finds one, you upgrade. If not, you still have your original ride.`,
+    tags: ['#ProductManagement', '#ProductThinking', '#UXDesign', '#RideHailing'],
+  }
 ];
 
 export default function LinkedInPosts() {

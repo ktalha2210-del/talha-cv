@@ -37,7 +37,7 @@ export default function Hero() {
 
           <p className="hero__description text-muted animate-fade-up-delay-3">
             I build products that solve real problems. From writing detailed PRDs to
-            user research and data analysis — I bridge the gap between user needs
+            user research and data analysis - I bridge the gap between user needs
             and business outcomes through structured, empathetic thinking.
           </p>
 
@@ -54,7 +54,7 @@ export default function Hero() {
               View My Work
             </a>
             <a
-              href="https://drive.google.com/file/d/1p-9ibYFO8jCmdsMKbepmoPL_oW7a1vpc/view?usp=sharing"
+              href="https://drive.google.com/file/d/1p-9ibYFO8jCmdsMKbepmoPL_oW7a1vpc/view"
               target="_blank"
               rel="noopener noreferrer"
               id="hero-cv-btn"

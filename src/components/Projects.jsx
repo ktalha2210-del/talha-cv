@@ -26,6 +26,18 @@ const PROJECTS = [
     link: 'https://cricbuzzpage.vercel.app/',
     linkId: 'cricbuzz-casestudy-btn',
   },
+  {
+    id: 'fitpass',
+    title: 'FITPASS',
+    description: 'Redefining Gym Access: Slot Booking & Social Fitness',
+    color: '#EF4444',
+    glowColor: 'rgba(239, 68, 68, 0.25)',
+    borderColor: 'rgba(239, 68, 68, 0.35)',
+    imgSrc: '/images/fitpass.png',
+    useImage: true,
+    link: 'https://fitpasscasestudy.vercel.app/',
+    linkId: 'fitpass-casestudy-btn',
+  },
 ];
 
 export default function Projects() {
