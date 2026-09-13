@@ -1,0 +1,308 @@
+.tool-detail {
+  min-height: 100vh;
+  padding-top: 8rem;
+}
+
+.container--tool-detail {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+/* Back link */
+.tool-detail__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #94a3b8;
+  font-family: var(--font-secondary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 3rem;
+  transition: color 0.2s ease, gap 0.2s ease;
+}
+
+.tool-detail__back:hover {
+  color: #ffffff;
+  gap: 0.7rem;
+}
+
+/* Hero */
+.tool-detail__hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.tool-detail__logo-box {
+  width: 110px;
+  height: 110px;
+  border-radius: 26px;
+  overflow: hidden;
+  border: 1.5px solid var(--card-border);
+  box-shadow: 0 12px 32px var(--card-glow), 0 8px 24px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1.75rem;
+}
+
+.tool-detail__logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tool-detail__title {
+  font-family: var(--font-primary);
+  font-size: clamp(2.2rem, 5vw, 3rem);
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.75rem;
+}
+
+.tool-detail__tagline {
+  font-family: var(--font-secondary);
+  font-size: 1.1rem;
+  color: #94a3b8;
+  max-width: 480px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Download button */
+.tool-detail__download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--card-accent);
+  color: #0a0e1a;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.9rem 1.75rem;
+  border-radius: 14px;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 8px 24px var(--card-glow);
+}
+
+.tool-detail__download-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 32px var(--card-glow);
+}
+
+.tool-detail__download-btn--secondary {
+  margin-top: 2rem;
+}
+
+.tool-detail__download-size {
+  opacity: 0.65;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+/* Problem / What it is grid */
+.tool-detail__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.tool-detail__card {
+  background: #090d16;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 1.75rem;
+}
+
+.tool-detail__card-title {
+  font-family: var(--font-primary);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--card-accent);
+  margin-bottom: 0.75rem;
+}
+
+.tool-detail__card-text {
+  font-family: var(--font-secondary);
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+/* Sections */
+.tool-detail__section {
+  margin-bottom: 4rem;
+}
+
+.tool-detail__section-title {
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1.75rem;
+  letter-spacing: -0.01em;
+}
+
+/* Features */
+.tool-detail__features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.tool-detail__feature {
+  background: #090d16;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 1.5rem;
+  transition: border-color 0.3s ease;
+}
+
+.tool-detail__feature:hover {
+  border-color: var(--card-border);
+}
+
+.tool-detail__feature-title {
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.tool-detail__feature-desc {
+  font-family: var(--font-secondary);
+  font-size: 0.88rem;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
+/* Shortcuts */
+.tool-detail__shortcuts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tool-detail__shortcut-row {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  background: #090d16;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+}
+
+.tool-detail__shortcut-keys {
+  flex-shrink: 0;
+  min-width: 170px;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--card-accent);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 0.35rem 0.7rem;
+  text-align: center;
+}
+
+.tool-detail__shortcut-action {
+  font-family: var(--font-secondary);
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}
+
+/* Install steps */
+.tool-detail__steps {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  counter-reset: step;
+}
+
+.tool-detail__step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.tool-detail__step-num {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--card-accent);
+  color: #0a0e1a;
+  font-family: var(--font-primary);
+  font-weight: 800;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tool-detail__step-text {
+  font-family: var(--font-secondary);
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  line-height: 1.6;
+  padding-top: 0.2rem;
+}
+
+/* Privacy note */
+.tool-detail__privacy {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 1.25rem 1.5rem;
+  color: var(--card-accent);
+  margin-bottom: 3rem;
+}
+
+.tool-detail__privacy svg {
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.tool-detail__privacy p {
+  font-family: var(--font-secondary);
+  font-size: 0.88rem;
+  color: #94a3b8;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tool-detail {
+    padding-top: 6rem;
+  }
+
+  .tool-detail__grid,
+  .tool-detail__features {
+    grid-template-columns: 1fr;
+  }
+
+  .tool-detail__shortcut-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+
+  .tool-detail__shortcut-keys {
+    min-width: auto;
+  }
+
+  .tool-detail__title {
+    font-size: clamp(1.75rem, 7vw, 2.2rem);
+  }
+}

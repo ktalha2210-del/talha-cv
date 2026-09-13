@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Raw extension source projects (packaged builds live in public/downloads/)
+/Quick Notes/
+/Image OCR/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
