@@ -39,13 +39,26 @@ export default function Navbar() {
     e.preventDefault();
     setMenuOpen(false);
     const el = document.querySelector(href);
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      // Section isn't in the DOM (e.g. we're on a tool detail page) —
+      // navigate back to the homepage; App's hash router will render the
+      // sections and scroll to the right one once they mount.
+      window.location.hash = href;
+    }
   };
 
   return (
     <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`} role="navigation" aria-label="Main Navigation">
       <div className="navbar__inner container">
-        <a href="#" className="navbar__logo" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
+        <a href="#" className="navbar__logo" onClick={(e) => {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          if (window.location.hash && window.location.hash !== '#') {
+            window.location.hash = '';
+          }
+        }}>
           <img src="/images/talha.jpeg" alt="TK" className="navbar__logo-icon" style={{ objectFit: 'cover' }} />
           <span className="navbar__logo-text">Talha Khan</span>
         </a>
