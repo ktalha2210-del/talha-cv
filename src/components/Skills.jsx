@@ -31,7 +31,7 @@ const MY_TOOLS = [
   { name: 'Framer', color: '#0055FF', icon: 'https://cdn.simpleicons.org/framer/0055FF' },
   { name: 'Figma', color: '#F24E1E', icon: 'https://cdn.simpleicons.org/figma/F24E1E' },
   { name: 'Lovable', color: '#FF5C35', icon: '/images/lovable-hq.png' },
-  { name: 'Whimsical', color: '#8844FF', icon: '/images/whimsical-transparent.png' },
+  { name: 'Whimsical', color: '#8844FF', icon: '/images/whimsical-logo.png' },
   { name: 'Claude Code', color: '#E4A982', icon: 'https://cdn.simpleicons.org/anthropic/E4A982' },
   { name: 'Jira / Conf.', color: '#0052CC', icon: 'https://cdn.simpleicons.org/jira/0052CC' },
   { name: 'Mixpanel', color: '#7856FF', icon: 'https://cdn.simpleicons.org/mixpanel/7856FF' },
