@@ -29,7 +29,9 @@ export default function App() {
 
   useEffect(() => {
     if (toolMatch) {
-      window.scrollTo({ top: 0 });
+      // Landing on a new "page" — snap instantly, don't animate the
+      // whole scroll distance via the global smooth-scroll CSS.
+      window.scrollTo({ top: 0, behavior: 'instant' });
       return;
     }
     const id = hash.replace('#', '');
@@ -37,7 +39,7 @@ export default function App() {
     if (el) {
       el.scrollIntoView({ behavior: 'smooth' });
     } else {
-      window.scrollTo({ top: 0 });
+      window.scrollTo({ top: 0, behavior: 'instant' });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [hash]);
