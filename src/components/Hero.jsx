@@ -54,7 +54,7 @@ export default function Hero() {
               View My Work
             </a>
             <a
-              href="https://drive.google.com/file/d/1p-9ibYFO8jCmdsMKbepmoPL_oW7a1vpc/view"
+              href="https://drive.google.com/file/d/1-rB7tvLeEMGCMPXr32CwHa3RBIZruFEr/view"
               target="_blank"
               rel="noopener noreferrer"
               id="hero-cv-btn"

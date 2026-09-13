@@ -75,7 +75,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://drive.google.com/file/d/1p-9ibYFO8jCmdsMKbepmoPL_oW7a1vpc/view?usp=sharing"
+            href="https://drive.google.com/file/d/1-rB7tvLeEMGCMPXr32CwHa3RBIZruFEr/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary navbar__cta"
